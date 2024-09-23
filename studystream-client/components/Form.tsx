@@ -16,7 +16,7 @@ export default function Form() {
           className="w-full"
           action={async () => {
             "use server";
-            await signIn("google", { redirectTo: "/dashboard" });
+            await signIn("google", { redirectTo: "/dashboardstudent" });
           }}
         >
           <button

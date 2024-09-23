@@ -22,11 +22,17 @@ const config = {
         'dark-blue' :'#0B60B0',
         'light-blue' :'#40A2D8',
         'fader-green' :'#677D6A',
-        'off-white' :'#F0EDCF',
+        'off-white' :'#F0EDCF','pastel-light-blue': '#b3cde0', // Pastel Light Blue
+        'pastel-dark-blue': '#6497b1',  // Pastel Dark Blue
+        'pastel-light-green': '#a0d6b4', // Pastel Light Green
+        'pastel-dark-green': '#7ca982',  // Pastel Dark Green
+        'pastel-light-yellow': '#fdf5b1', // Pastel Light Yellow
+        'pastel-dark-yellow': '#f7d08a',  // Pastel Dark Yellow
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
+        
         foreground: "hsl(var(--foreground))",
         primary: {
           DEFAULT: "hsl(var(--primary))",
